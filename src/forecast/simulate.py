@@ -222,7 +222,9 @@ class Simulador:
             mesbase, modelo = mesbase[fica], modelo[fica]
 
             # 5. Admissões até o quadro planejado.
-            alvo = int(round(hc_inicial * (1 + cenario.crescimento_headcount) ** (i / 12)))
+            alvo = round(
+                hc_inicial * (1 + cenario.crescimento_headcount) ** (i / 12)
+            )
             vagas = max(alvo - len(sal), 0)
             massa_admitida = 0.0
             if vagas:

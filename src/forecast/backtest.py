@@ -17,7 +17,6 @@ e cobertura honesta, porque o primeiro produz falsa confiança.
 
 from __future__ import annotations
 
-import numpy as np
 import pandas as pd
 
 

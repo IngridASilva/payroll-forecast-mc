@@ -1,5 +1,7 @@
 # payroll-forecast-mc
 
+![CI](https://github.com/IngridASilva/payroll-forecast-mc/actions/workflows/ci.yml/badge.svg)
+
 Forecast de headcount e folha por simulação Monte Carlo, com bandas de
 incerteza, cenários e backtest. Base sintética longitudinal:
 [hr-synthetic-data-br](../hr-synthetic-data-br).

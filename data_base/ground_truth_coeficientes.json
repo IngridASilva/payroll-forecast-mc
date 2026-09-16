@@ -1,0 +1,54 @@
+{
+  "voluntario": {
+    "intercepto": -5.95,
+    "pico_tenure_meses": 18.0,
+    "largura_tenure": 16.0,
+    "amp_tenure": 0.95,
+    "decaimento_tenure_ano": -0.075,
+    "meses_sem_promocao": 0.42,
+    "compa_ratio": -1.3,
+    "idade_decadas": -0.3,
+    "performance": 0.14,
+    "perf_x_subremuneracao": 1.15,
+    "modelo_presencial": 0.3,
+    "modelo_hibrido": 0.0,
+    "modelo_remoto": -0.22,
+    "distancia_10km": 0.16,
+    "horas_extras_10h": 0.2,
+    "grade": -0.11,
+    "sd_efeito_gestor": 0.4,
+    "sazonalidade": [
+      0.38,
+      0.3,
+      0.14,
+      0.02,
+      -0.02,
+      0.0,
+      0.08,
+      0.06,
+      0.02,
+      -0.05,
+      -0.3,
+      -0.45
+    ]
+  },
+  "involuntario": {
+    "intercepto": -5.6,
+    "performance_baixa": 1.45,
+    "performance_alta": -0.9,
+    "experiencia_meses_12": -0.1,
+    "grade": -0.08
+  },
+  "hierarquia_esperada_drivers": [
+    "meses_sem_promocao",
+    "compa_ratio",
+    "interacao_performance_x_subremuneracao",
+    "tempo_de_casa",
+    "efeito_gestor",
+    "modelo_trabalho",
+    "idade",
+    "horas_extras",
+    "distancia_km"
+  ],
+  "nota": "Hierarquia aproximada por magnitude de efeito na faixa típica das variáveis. Use como gabarito ao comparar com o ranking do SHAP."
+}

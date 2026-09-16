@@ -1,0 +1,8 @@
+grade,pessoas_mes,desligamentos,promocoes,meritos,taxa_saida,taxa_promocao,taxa_merito_ciclo,amostra_suficiente,origem
+1,3848,76,16.0,223,0.01975,0.00416,0.34771,True,própria
+2,7979,130,23.0,471,0.01629,0.00288,0.35418,True,própria
+3,9635,119,32.0,600,0.01235,0.00332,0.37364,True,própria
+4,7310,76,16.0,481,0.0104,0.00219,0.3948,True,própria
+5,4210,40,8.0,279,0.0095,0.0019,0.39762,True,própria
+6,3864,30,3.0,273,0.00776,0.00078,0.42391,True,própria
+7,2207,17,0.0,162,0.0077,0.0,0.44042,True,própria

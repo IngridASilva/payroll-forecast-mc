@@ -1,0 +1,30 @@
+# Cenários de forecast. Cada bloco é uma premissa de negócio que o usuário
+# pode contestar linha a linha — que é exatamente o objetivo.
+
+corte: "2024-12-01"      # última competência conhecida
+horizonte_meses: 12
+janela_estimacao: 24     # meses de histórico para estimar as taxas
+rodadas: 500
+
+cenarios:
+  - nome: "Base"
+    dissidio: 0.048
+    crescimento_headcount: 0.05
+    multiplicador_saida: 1.0
+
+  - nome: "Contenção"
+    dissidio: 0.042
+    crescimento_headcount: 0.00
+    multiplicador_saida: 1.0
+    congelamento_promocoes: true
+    congelamento_merito: true
+
+  - nome: "Expansão"
+    dissidio: 0.055
+    crescimento_headcount: 0.12
+    multiplicador_saida: 1.0
+
+  - nome: "Mercado aquecido"
+    dissidio: 0.055
+    crescimento_headcount: 0.05
+    multiplicador_saida: 1.6
